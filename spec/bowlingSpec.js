@@ -23,7 +23,8 @@ describe('Bowling', function() {
       var frame2 = bowling.bowl(1, 2);
       bowling.addScore(frame1);
       bowling.addScore(frame2);
-      expect(bowling.latestScore()).toEqual(6)
+      expect(bowling.latestScore()).toEqual(6);
     }); 
   });
 });
+
